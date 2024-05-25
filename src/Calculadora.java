@@ -48,7 +48,7 @@ public class Calculadora {
     }
 
     public void imprimeInfo() {
-        System.out.println("#### Informações : ####");
+        System.out.println("#### Informações Calculadora: ####");
         System.out.println("Cor: " + cor + "\nMemória: " + memoria);
         System.out.println("Operações: soma, subtração, divisão, multiplicação, elevação ao quadrado e ao cubo.");
     }
