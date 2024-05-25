@@ -1,4 +1,4 @@
-## Exercicio - Funcionario
+## Exercicio - Funcionário (Java)
 
 Classe Calculadora:
 - Uma calculadora possui uma memória e uma cor;
