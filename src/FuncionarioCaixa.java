@@ -73,7 +73,7 @@ public class FuncionarioCaixa {
     }
 
     public void imprimeInfo() {
-        System.out.println("#### Informações Funcionario Caixa: ####");
+        System.out.println("\n#### Informações Funcionario Caixa: ####");
         System.out.println("Nome: " + nome + "\nEndereco: " + endereco + "\nSexo: " + sexo);
         System.out.println("Calculadora:\n\t- Cor:" + calculadora.getCor() + "\n\tMemória: " + calculadora.getMemoria());
     }

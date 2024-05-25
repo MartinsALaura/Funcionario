@@ -46,7 +46,7 @@ public class Empresa {
     }
 
     public void imprimeInfo() {
-        System.out.println("#### Informações Empresa: ####");
+        System.out.println("\n#### Informações Empresa: ####");
         System.out.println("Nome: " + nome);
         funcionario1.imprimeInfo();
         funcionario2.imprimeInfo();
