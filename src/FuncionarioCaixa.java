@@ -1,15 +1,16 @@
 public class FuncionarioCaixa {
-    private String nome, endereco, sexo;
+    private String nome, endereco;
+    private char sexo;
     private Calculadora calculadora;
 
     public FuncionarioCaixa() {
         this.nome = "XXXX";
         this.endereco = "XXXXXXX";
-        this.sexo = "X";
+        this.sexo = 'X';
         this.calculadora = new Calculadora("Preta");
     }
     
-    public FuncionarioCaixa(String nome, String endereco, String sexo, Calculadora calculadora) {
+    public FuncionarioCaixa(String nome, String endereco, char sexo, Calculadora calculadora) {
         this.nome = nome;
         this.endereco = endereco;
         this.sexo = sexo;
@@ -32,11 +33,11 @@ public class FuncionarioCaixa {
         this.endereco = endereco;
     }
 
-    public String getSexo() {
+    public char getSexo() {
         return sexo;
     }
 
-    public void setSexo(String sexo) {
+    public void setSexo(char sexo) {
         this.sexo = sexo;
     }
 

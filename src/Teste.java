@@ -10,7 +10,7 @@ public class Teste {
         System.out.println("Informe o endereco: ");
         String endereco = scanner.nextLine();
         System.out.println("Informe o sexo(F ou M): ");
-        String sexo = scanner.nextLine();
+        char sexo = scanner.nextLine().charAt(0);;
         System.out.println("Informe a cor de sua calculadora: ");
         String corCalculadora = scanner.nextLine();
 

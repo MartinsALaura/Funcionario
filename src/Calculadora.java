@@ -40,11 +40,11 @@ public class Calculadora {
     }
 
     public double elevaAoQuadrado(int a){
-        return a * a;
+        return (int)(Math.pow(a, 2));
     }
 
     public double elevaAoCubo(int a){
-        return a * a * a;
+        return (int)(Math.pow(a, 3));
     }
 
     public void imprimeInfo() {

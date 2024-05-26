@@ -5,14 +5,14 @@ public class Empresa {
     
     public Empresa() {
         this.nome = "Empresa";
-        this.funcionario1 = new FuncionarioCaixa();
-        this.funcionario2 = new FuncionarioCaixa();
+        this.funcionario1 = null;
+        this.funcionario2 = null;
     }
 
     public Empresa(String nome) {
         this.nome = nome;
-        this.funcionario1 = new FuncionarioCaixa();
-        this.funcionario2 = new FuncionarioCaixa();
+        this.funcionario1 = null;
+        this.funcionario2 = null;
     }
 
     public Empresa(String nome, FuncionarioCaixa funcionario1, FuncionarioCaixa funcionario2) {
